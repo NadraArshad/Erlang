@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    color: rgb(245, 245, 245);
+    position: relative;
+    z-index: 10;
+    background-image: url(bg.jpg);
+   
+}
+.nav{
+    padding: 2vw 3vw;
+    display: flex;
+   border-radius: 10px;
+   color: rgb(229, 229, 229);
+   
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.left h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.right h3{
+    font-size: 1.5vw;
+    font-weight: 800;
+    padding:1vw 1.5vw;
+    border-radius:50px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.calculator{
+    margin: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 60vh;
+    width: 45vw;
+    border-radius: 20px;
+    background-color: rgba(7, 17, 42, 0.488);
+    overflow: hidden;
+}
+.header{
+    background-color:rgba(1, 12, 40, 0.832) ;
+    padding: 1vw 2vw;
+    padding-left: 3vw;   
+}
+
+.header h2{
+    font-weight: 400;
+}
+#calculator-form{
+    width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+.input-group{
+    padding-top: 1vw;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+button{
+    padding: 0.7vw 4.8vw;
+    border-radius: 5px;
+    background-color: rgba(1, 12, 40, 0.778);
+    color:rgb(247, 249, 250);
+    margin-top:2vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+input{
+    padding: 0.5vw 3vw;
+}
+label{
+    font-size: 1.2vw;
+}
+.result p{
+    padding: 2vw 0;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.info-panel{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(5, 10, 53);
+    color: white;
+    position: fixed;
+    z-index: 0;
+    top:-100%;
+    text-align: center;
+    padding: 3vw 0;
+}
+.info-panel h1{
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    padding: 0.78vw 0;
+    display: inline-block;
+}
+.content{
+    width: 100vw;
+    padding: 4vw 15vw;
+    text-align: left;
+}
+.content p{
+    font-size: 1.3vw;
+    font-weight: 300;
+    line-height: 1.7vw;
+}
+.cancel{
+    text-align: end;
+    padding-right: 5vw;
+    border-radius: 50%;
+   
+}
+.cancel i {
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+
+
